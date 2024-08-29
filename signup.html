@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teleads | Signup</title>
+    <link rel="stylesheet" href="/css/signup.css" />
+    <link rel="stylesheet" href="/css/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar container">
+            <div class="logo">
+                <h1 class="logo-head">TeleAds</h1>
+            </div>
+            <!-- <input type="checkbox" class="check"> -->
+            <div class="nav" id="navbar">
+                <div class="nav-links">
+                    <a href="/index.html" class="anchor">Login</a>
+                </div>
+                <div class="nav-links">
+                    <a href="/signup.html" class="anchor">Sign-up</a>
+                </div>
+                <div class="nav-links">
+                    <a href="#" class="anchor"><i class="ri-customer-service-line"></i></i></a>
+                </div>
+            </div>
+
+            <div class="menu">
+                <button class="menu-btn"><i class="ri-menu-line change"></i></button>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container main-login project-lg w-sm w-s">
+       
+        <div class="respo-login"> 
+            <div class="title-form">
+            <h2>Sign-up</h2>
+        </div>
+            <div class="login">
+                <form action="">
+                    <input type="E-mail" placeholder="E-mail" class="form-spacings input" required>
+                    <input type="password" placeholder="Enter Password" class="form-spacings input"  required>
+                    <input type="password" placeholder="Confirm Your Password" class="form-spacings input"  required>
+                    <a href="/dashboard.html" class="login-btna form-spacings">Sign-up</a>
+
+                    <div class="checkbox-main">
+                        <input type="checkbox" class="checkbox" required>
+                        <label for="checkbox" class="checkbox">&nbsp; I Accept All The Privacy & Policy</label>
+                    </div>
+                    <div class="forgot-psw user-help">
+                        <p><a href="/index.html">Already Have a Account ? Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".menu").click(function () {
+            $(".nav").slideToggle(1200);
+        })
+    </script>
+</body>
+
+</html>
